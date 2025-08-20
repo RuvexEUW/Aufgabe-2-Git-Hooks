@@ -16,7 +16,7 @@ const subject = lines[0] || "";
 if (/^Merge /.test(subject)) process.exit(0);
 
 //Erlaubte Types
-const Types = [
+const TYPES = [
     "build", "chore", "ci", "docs", "feat", "fix",
     "perf", "refactor", "revert", "style", "test",
 ];
